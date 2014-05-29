@@ -21,6 +21,7 @@
 		C50221D61937CAB700ABB796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50221B81937CAB700ABB796 /* UIKit.framework */; };
 		C50221DE1937CAB700ABB796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C50221DC1937CAB700ABB796 /* InfoPlist.strings */; };
 		C50221E01937CAB700ABB796 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C50221DF1937CAB700ABB796 /* GitTestTests.m */; };
+		C50221EB1937D02600ABB796 /* CCtest.m in Sources */ = {isa = PBXBuildFile; fileRef = C50221EA1937D02600ABB796 /* CCtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C50221DB1937CAB700ABB796 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		C50221DD1937CAB700ABB796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C50221DF1937CAB700ABB796 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		C50221E91937D02600ABB796 /* CCtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCtest.h; sourceTree = "<group>"; };
+		C50221EA1937D02600ABB796 /* CCtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C50221A81937CAB700ABB796 = {
 			isa = PBXGroup;
 			children = (
+				C50221E91937D02600ABB796 /* CCtest.h */,
+				C50221EA1937D02600ABB796 /* CCtest.m */,
 				C50221BA1937CAB700ABB796 /* GitTest */,
 				C50221D91937CAB700ABB796 /* GitTestTests */,
 				C50221B31937CAB700ABB796 /* Frameworks */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C50221C51937CAB700ABB796 /* CCAppDelegate.m in Sources */,
+				C50221EB1937D02600ABB796 /* CCtest.m in Sources */,
 				C50221C11937CAB700ABB796 /* main.m in Sources */,
 				C50221CB1937CAB700ABB796 /* CCViewController.m in Sources */,
 			);
